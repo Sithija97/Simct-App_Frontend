@@ -1,18 +1,59 @@
-
+/* user profile */
+/* logout button */
 .logoutbtn {
   background-color: #5499c7;
-  border: none;
+  /* border: none; */
   color: white;
   padding: 10px 20px;
   text-align: center;
-  text-decoration: none;
+  /* text-decoration: none; */
   display: inline-block;
   font-size: 10px;
   /* margin: 1px 1px; */
   cursor: pointer;
   float: right;
 }
-.userbox {
+/* .userbox {
   float: left;
   padding: 10px 10px;
+} */
+
+/* user card */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 12%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+/* add area button */
+.fab {
+   width: 50px;
+   height: 50px;
+   background-color: #5499c7;
+   border-radius: 50%;
+   box-shadow: 0 6px 10px 0 rgb(190, 190, 190);
+   transition: all 0.1s ease-in-out;
+ 
+   font-size: 40px;
+   color: white;
+   text-align: center;
+   line-height: 50px;
+ 
+   position: fixed;
+   right: 50px;
+   bottom: 50px;
+}
+ 
+.fab:hover {
+   box-shadow: 0 6px 14px 0 #666;
+   transform: scale(1.05);
 }

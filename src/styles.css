@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-size: cover;
   font-family: sans-serif;
+  background-color: #f1f2f6;
 }
 
 .box {
@@ -16,6 +17,8 @@ body {
   border: 1px solid #dadce0;
   -webkit-border-radius: 8px;
   border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #fff;
 }
 
 .box h2 {
@@ -340,3 +343,4 @@ label.validation-message {
   color: white;
   margin-bottom: 15px;
 }
+
